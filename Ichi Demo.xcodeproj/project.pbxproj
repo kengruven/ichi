@@ -7,11 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE2799C123D3C312009338E7 /* RawNumericType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2799C023D3C312009338E7 /* RawNumericType.swift */; };
+		BE2799C323D3D3E7009338E7 /* RawNumericType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2799C023D3C312009338E7 /* RawNumericType.swift */; };
+		BE2799C523D3D3FD009338E7 /* RawRealType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2799C423D3D3FD009338E7 /* RawRealType.swift */; };
+		BE2799C623ECB3A8009338E7 /* RawRealType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2799C423D3D3FD009338E7 /* RawRealType.swift */; };
 		BE827CF023AF1DCC00D8FBB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827CEF23AF1DCC00D8FBB8 /* AppDelegate.swift */; };
 		BE827CF223AF1DCC00D8FBB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827CF123AF1DCC00D8FBB8 /* ViewController.swift */; };
 		BE827CF423AF1DCF00D8FBB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE827CF323AF1DCF00D8FBB8 /* Assets.xcassets */; };
 		BE827CF723AF1DCF00D8FBB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE827CF523AF1DCF00D8FBB8 /* Main.storyboard */; };
 		BE827D0323AF1DCF00D8FBB8 /* Ichi_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D0223AF1DCF00D8FBB8 /* Ichi_DemoTests.swift */; };
+		BE827D0F23AF1F0E00D8FBB8 /* NumericType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D0E23AF1F0E00D8FBB8 /* NumericType.swift */; };
+		BE827D1023AF1F0E00D8FBB8 /* NumericType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D0E23AF1F0E00D8FBB8 /* NumericType.swift */; };
+		BE827D1223AF1F4D00D8FBB8 /* RawInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D1123AF1F4D00D8FBB8 /* RawInteger.swift */; };
+		BE827D1323AF1F4D00D8FBB8 /* RawInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D1123AF1F4D00D8FBB8 /* RawInteger.swift */; };
+		BE827D1623AF200C00D8FBB8 /* RawRational.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D1523AF200C00D8FBB8 /* RawRational.swift */; };
+		BE827D1723AF200C00D8FBB8 /* RawRational.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D1523AF200C00D8FBB8 /* RawRational.swift */; };
+		BE827D1923AF205B00D8FBB8 /* RawDecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D1823AF205B00D8FBB8 /* RawDecimal.swift */; };
+		BE827D1A23AF205B00D8FBB8 /* RawDecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D1823AF205B00D8FBB8 /* RawDecimal.swift */; };
+		BE827D1F23AF4D9600D8FBB8 /* Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D1E23AF4D9600D8FBB8 /* Integer.swift */; };
+		BE827D2023AF4D9600D8FBB8 /* Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D1E23AF4D9600D8FBB8 /* Integer.swift */; };
+		BE827D2323AF4DCB00D8FBB8 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D2223AF4DCB00D8FBB8 /* Rational.swift */; };
+		BE827D2423AF4DCB00D8FBB8 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D2223AF4DCB00D8FBB8 /* Rational.swift */; };
+		BE827D2623AF4DD200D8FBB8 /* Decimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D2523AF4DD200D8FBB8 /* Decimal.swift */; };
+		BE827D2723AF4DD200D8FBB8 /* Decimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D2523AF4DD200D8FBB8 /* Decimal.swift */; };
+		BE827D2C23AF4E3500D8FBB8 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D2B23AF4E3500D8FBB8 /* Dimension.swift */; };
+		BE827D2D23AF4E3500D8FBB8 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D2B23AF4E3500D8FBB8 /* Dimension.swift */; };
+		BE827D3023AF4E8100D8FBB8 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D2F23AF4E8100D8FBB8 /* Unit.swift */; };
+		BE827D3123AF4E8100D8FBB8 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827D2F23AF4E8100D8FBB8 /* Unit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE2799C023D3C312009338E7 /* RawNumericType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawNumericType.swift; sourceTree = "<group>"; };
+		BE2799C423D3D3FD009338E7 /* RawRealType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawRealType.swift; sourceTree = "<group>"; };
 		BE827CEC23AF1DCC00D8FBB8 /* Ichi Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ichi Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE827CEF23AF1DCC00D8FBB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE827CF123AF1DCC00D8FBB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +59,15 @@
 		BE827CFE23AF1DCF00D8FBB8 /* Ichi DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ichi DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE827D0223AF1DCF00D8FBB8 /* Ichi_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ichi_DemoTests.swift; sourceTree = "<group>"; };
 		BE827D0423AF1DCF00D8FBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE827D0E23AF1F0E00D8FBB8 /* NumericType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericType.swift; sourceTree = "<group>"; };
+		BE827D1123AF1F4D00D8FBB8 /* RawInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawInteger.swift; sourceTree = "<group>"; };
+		BE827D1523AF200C00D8FBB8 /* RawRational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawRational.swift; sourceTree = "<group>"; };
+		BE827D1823AF205B00D8FBB8 /* RawDecimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawDecimal.swift; sourceTree = "<group>"; };
+		BE827D1E23AF4D9600D8FBB8 /* Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Integer.swift; sourceTree = "<group>"; };
+		BE827D2223AF4DCB00D8FBB8 /* Rational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
+		BE827D2523AF4DD200D8FBB8 /* Decimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decimal.swift; sourceTree = "<group>"; };
+		BE827D2B23AF4E3500D8FBB8 /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
+		BE827D2F23AF4E8100D8FBB8 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +88,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE2799C223D3D3DD009338E7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BE827D0E23AF1F0E00D8FBB8 /* NumericType.swift */,
+				BE2799C023D3C312009338E7 /* RawNumericType.swift */,
+				BE2799C423D3D3FD009338E7 /* RawRealType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		BE827CE323AF1DCC00D8FBB8 = {
 			isa = PBXGroup;
 			children = (
+				BE827D0D23AF1EFB00D8FBB8 /* Library */,
 				BE827CEE23AF1DCC00D8FBB8 /* Ichi Demo */,
 				BE827D0123AF1DCF00D8FBB8 /* Ichi DemoTests */,
 				BE827CED23AF1DCC00D8FBB8 /* Products */,
@@ -93,6 +137,46 @@
 				BE827D0423AF1DCF00D8FBB8 /* Info.plist */,
 			);
 			path = "Ichi DemoTests";
+			sourceTree = "<group>";
+		};
+		BE827D0D23AF1EFB00D8FBB8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				BE2799C223D3D3DD009338E7 /* Protocols */,
+				BE827D1423AF1FB900D8FBB8 /* Raw */,
+				BE827D2123AF4DA200D8FBB8 /* Dimensions */,
+				BE827D2E23AF4E7500D8FBB8 /* Units */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		BE827D1423AF1FB900D8FBB8 /* Raw */ = {
+			isa = PBXGroup;
+			children = (
+				BE827D1123AF1F4D00D8FBB8 /* RawInteger.swift */,
+				BE827D1523AF200C00D8FBB8 /* RawRational.swift */,
+				BE827D1823AF205B00D8FBB8 /* RawDecimal.swift */,
+			);
+			path = Raw;
+			sourceTree = "<group>";
+		};
+		BE827D2123AF4DA200D8FBB8 /* Dimensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE827D2B23AF4E3500D8FBB8 /* Dimension.swift */,
+				BE827D1E23AF4D9600D8FBB8 /* Integer.swift */,
+				BE827D2223AF4DCB00D8FBB8 /* Rational.swift */,
+				BE827D2523AF4DD200D8FBB8 /* Decimal.swift */,
+			);
+			path = Dimensions;
+			sourceTree = "<group>";
+		};
+		BE827D2E23AF4E7500D8FBB8 /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				BE827D2F23AF4E8100D8FBB8 /* Unit.swift */,
+			);
+			path = Units;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +280,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE827CF223AF1DCC00D8FBB8 /* ViewController.swift in Sources */,
+				BE2799C523D3D3FD009338E7 /* RawRealType.swift in Sources */,
 				BE827CF023AF1DCC00D8FBB8 /* AppDelegate.swift in Sources */,
+				BE827D2323AF4DCB00D8FBB8 /* Rational.swift in Sources */,
+				BE827D2623AF4DD200D8FBB8 /* Decimal.swift in Sources */,
+				BE2799C123D3C312009338E7 /* RawNumericType.swift in Sources */,
+				BE827D1623AF200C00D8FBB8 /* RawRational.swift in Sources */,
+				BE827D1F23AF4D9600D8FBB8 /* Integer.swift in Sources */,
+				BE827D1223AF1F4D00D8FBB8 /* RawInteger.swift in Sources */,
+				BE827D2C23AF4E3500D8FBB8 /* Dimension.swift in Sources */,
+				BE827D3023AF4E8100D8FBB8 /* Unit.swift in Sources */,
+				BE827D1923AF205B00D8FBB8 /* RawDecimal.swift in Sources */,
+				BE827D0F23AF1F0E00D8FBB8 /* NumericType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +299,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE827D1723AF200C00D8FBB8 /* RawRational.swift in Sources */,
+				BE827D3123AF4E8100D8FBB8 /* Unit.swift in Sources */,
+				BE2799C323D3D3E7009338E7 /* RawNumericType.swift in Sources */,
+				BE827D2723AF4DD200D8FBB8 /* Decimal.swift in Sources */,
+				BE827D1323AF1F4D00D8FBB8 /* RawInteger.swift in Sources */,
+				BE827D2423AF4DCB00D8FBB8 /* Rational.swift in Sources */,
+				BE827D1023AF1F0E00D8FBB8 /* NumericType.swift in Sources */,
+				BE2799C623ECB3A8009338E7 /* RawRealType.swift in Sources */,
+				BE827D1A23AF205B00D8FBB8 /* RawDecimal.swift in Sources */,
+				BE827D2023AF4D9600D8FBB8 /* Integer.swift in Sources */,
+				BE827D2D23AF4E3500D8FBB8 /* Dimension.swift in Sources */,
 				BE827D0323AF1DCF00D8FBB8 /* Ichi_DemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,26 +1,16 @@
-//
-//  AppDelegate.swift
-//  Ichi Demo
-//
-//  Created by Ken Harris on 12/21/19.
-//  Copyright © 2019 Free Robot Collective. All rights reserved.
-//
-
 import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-
-
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        print("hello, world!")
+
+        // TODO: sample uses of Raw{Integer,Rational,Decimal}
+        // TODO: sample uses of {Integer,Rational,Decimal}
+        // TODO: static and dynamic type checking and conversions
+
+        // FIRST STEPS:
+        let i: RawInteger = 345
+        print("i = \(i)")
     }
-
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
-    }
-
-
 }
-
