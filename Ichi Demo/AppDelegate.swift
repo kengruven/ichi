@@ -10,7 +10,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // TODO: static and dynamic type checking and conversions
 
         // FIRST STEPS:
-        let i: RawInteger = 345
+        let i: RawInteger = 20
         print("i = \(i)")
     }
 }
