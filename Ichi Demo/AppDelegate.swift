@@ -12,5 +12,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // FIRST STEPS:
         let i: RawInteger = 20
         print("i = \(i)")
+
+        let j: RawInteger = "200,000,000,000,000,000,000"
+        print("j = \(j)")
     }
 }

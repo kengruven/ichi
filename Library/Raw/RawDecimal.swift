@@ -5,4 +5,10 @@ struct RawDecimal: RawRealType {
     // WRITEME: +-*/ ^ exp/log trig ...
 }
 
-// FUTURE: ->Q (using precision!)
+// FUTURE: ->Q (using precision!) -- and ->Qpi?
+
+extension RawDecimal: ExpressibleByFloatLiteral {
+    init(floatLiteral value: Double) {
+        fatalError("WRITEME: got float \(value)")
+    }
+}
