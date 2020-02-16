@@ -15,5 +15,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         let j: RawInteger = "200,000,000,000,000,000,000"
         print("j = \(j)")
+
+        // BUG?: with chunkSize=2, this has an [11]=0
+
+        print("i < j ? \(i < j)")
+        print("j < i ? \(j < i)")
+        print("i < i ? \(i < i)")
+
+        let k = i + j
+        print("k = \(k)")
     }
 }
